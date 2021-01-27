@@ -1,0 +1,6 @@
+framework module Pods_BLYYKit_Tests {
+  umbrella header "Pods-BLYYKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

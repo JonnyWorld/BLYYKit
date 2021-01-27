@@ -1,0 +1,23 @@
+{
+  "name": "BLYYKit",
+  "version": "0.1.0",
+  "summary": "A short description of BLYYKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/baozhou/BLYYKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baozhou": "baozhoua@163.com"
+  },
+  "source": {
+    "git": "https://github.com/baozhou/BLYYKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BLYYKit/Classes/**/*",
+  "vendored_frameworks": "BLYYKit/Frameworks/yykit/YYKit.framework"
+}

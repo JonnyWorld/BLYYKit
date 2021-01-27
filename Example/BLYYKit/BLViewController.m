@@ -7,6 +7,7 @@
 //
 
 #import "BLViewController.h"
+#import <YYKit/YYKit.h>
 
 @interface BLViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    YYLabel *labe = [[YYLabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    labe.backgroundColor = UIColor.redColor;
+    [self.view addSubview:labe];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75652EB213B6EB3123C58296 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75652EB213B6EB3123C58296 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7F297453564D1B131B2022E2 /* Pods-BLYYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLYYKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-BLYYKit_Tests/Pods-BLYYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		86377655A590BE174BD4FA26 /* Pods-BLYYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLYYKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BLYYKit_Tests/Pods-BLYYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9973C7A29C0F12962E49F9B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9973C7A29C0F12962E49F9B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5A7EA6F1983094327D76ABE /* Pods_BLYYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLYYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE44A2A4A6ECDAE75437BB2C /* BLYYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BLYYKit.podspec; path = ../BLYYKit.podspec; sourceTree = "<group>"; };
+		CE44A2A4A6ECDAE75437BB2C /* BLYYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BLYYKit.podspec; path = ../BLYYKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D366345B6D3EA3D9EF3A4EC7 /* Pods_BLYYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLYYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				86377655A590BE174BD4FA26 /* Pods-BLYYKit_Tests.debug.xcconfig */,
 				7F297453564D1B131B2022E2 /* Pods-BLYYKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = baozhou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HLG7M9LKNY;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,10 +327,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BLYYKit_Example/Pods-BLYYKit_Example-frameworks.sh",
+				"${PODS_ROOT}/../../BLYYKit/Frameworks/yykit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/BLYYKit/BLYYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLYYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +499,8 @@
 			baseConfigurationReference = 2104CC5751A921FEE20CD1CA /* Pods-BLYYKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HLG7M9LKNY;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLYYKit/BLYYKit-Prefix.pch";
 				INFOPLIST_FILE = "BLYYKit/BLYYKit-Info.plist";
@@ -510,6 +517,8 @@
 			baseConfigurationReference = 50B79F85C867ECF49ECC0E8A /* Pods-BLYYKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HLG7M9LKNY;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLYYKit/BLYYKit-Prefix.pch";
 				INFOPLIST_FILE = "BLYYKit/BLYYKit-Info.plist";
