@@ -36,8 +36,13 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'BLYYKit/Frameworks/yykit/YYKit.framework','BLYYKit/Frameworks/mars/mars.framework'
 
   
-  s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration'
-  s.libraries  = "c++", "z"
+  s.libraries  = "c++", "z" , 'sqlite3'
+  s.frameworks = 'Foundation', 'CoreTelephony', 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
+  
+  
+  
+  pod 'YBImageBrowser/Video', :git=>'https://gitee.com/big_front_end/YBImageBrowser.git', :commit =>'ab6aa8ca4d6948a8afe148064087172be746ff39'
+
   # s.resource_bundles = {
   #   'BLYYKit' => ['BLYYKit/Assets/*.png']
   # }
