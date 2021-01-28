@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		k/c9+SC9CzEXpe4V1667YMnBJps=
-		</data>
 		<key>Headers/CALayer+YYAdd.h</key>
 		<data>
 		qMYP04R3z+OFJL3Dd9ZKZmuhKCE=
@@ -22,11 +18,11 @@
 		</data>
 		<key>Headers/NSArray+YYAdd.h</key>
 		<data>
-		eGGV7GhIaaucpIYUEixf5v2GBpE=
+		TIPwsC2+mB9ElTCF5B9UIeDEA2k=
 		</data>
 		<key>Headers/NSAttributedString+YYText.h</key>
 		<data>
-		05O99nkfaupoUpFmL09O6lwhmJE=
+		SFkTJe6MiCB2u0IboAoTAlTRyMo=
 		</data>
 		<key>Headers/NSBundle+YYAdd.h</key>
 		<data>
@@ -70,7 +66,7 @@
 		</data>
 		<key>Headers/NSObject+YYModel.h</key>
 		<data>
-		ZUt3hEm+Li+dcJdKyIRQxmNTr1o=
+		Sg3OYSitop0EhzgP9vRTwxO0dNs=
 		</data>
 		<key>Headers/NSParagraphStyle+YYText.h</key>
 		<data>
@@ -78,7 +74,7 @@
 		</data>
 		<key>Headers/NSString+YYAdd.h</key>
 		<data>
-		j3MEruwNJAOJ73a/uFtWuOiSmP0=
+		B8VeUi45kbjYo7r3A7itxUrESus=
 		</data>
 		<key>Headers/NSThread+YYAdd.h</key>
 		<data>
@@ -114,7 +110,7 @@
 		</data>
 		<key>Headers/UIDevice+YYAdd.h</key>
 		<data>
-		Fp7/4X2EnwVRPgC4WsppqKMoECA=
+		n363pWJM9MCqGAmDt5ZPoBSQXCU=
 		</data>
 		<key>Headers/UIFont+YYAdd.h</key>
 		<data>
@@ -162,11 +158,11 @@
 		</data>
 		<key>Headers/YYAsyncLayer.h</key>
 		<data>
-		sXH4DoAtUhu1nVXv8oHebEUPJ88=
+		UUL3PqAa9G66vtHqBNFEy9GvZ3k=
 		</data>
 		<key>Headers/YYCGUtilities.h</key>
 		<data>
-		DnzJcwpRRX6cjDEc19cE8gCZvjY=
+		2IABL8MohQLCBw9SLnlh42W+9l8=
 		</data>
 		<key>Headers/YYCache.h</key>
 		<data>
@@ -206,7 +202,7 @@
 		</data>
 		<key>Headers/YYImageCoder.h</key>
 		<data>
-		6nlZ9T9SUX9WwKNsko3Ik3RsvBo=
+		x/xMEUHwAMWlunOwQXrQuSzPji8=
 		</data>
 		<key>Headers/YYKVStorage.h</key>
 		<data>
@@ -216,17 +212,13 @@
 		<data>
 		Q4t3rV3KLRALGppA/j0e0yw+z0M=
 		</data>
-		<key>Headers/YYKit-umbrella.h</key>
-		<data>
-		gDZh5E7nDHQ5hl37/TCPzTEwm/4=
-		</data>
 		<key>Headers/YYKit.h</key>
 		<data>
 		A00LTeoGKJy3ZGpXEMV6FuADQZw=
 		</data>
 		<key>Headers/YYKitMacro.h</key>
 		<data>
-		0Zt+vWNKL4HePH+Fsa2O0uNfc00=
+		aMbNz5b3yIPLGRiRtbK0QKvg1Oo=
 		</data>
 		<key>Headers/YYLabel.h</key>
 		<data>
@@ -278,7 +270,7 @@
 		</data>
 		<key>Headers/YYTextLayout.h</key>
 		<data>
-		CAVGnoj4uXFtkIDMZQcAdh7GOUY=
+		HRu737f0rddSwx0Hn9iL1catg5o=
 		</data>
 		<key>Headers/YYTextLine.h</key>
 		<data>
@@ -306,7 +298,7 @@
 		</data>
 		<key>Headers/YYTextUtilities.h</key>
 		<data>
-		7N06NHblMeaKnL7JlsEjjD6dJuw=
+		JW4zxqdOLcISoHlv2pxrrpdJXzQ=
 		</data>
 		<key>Headers/YYTextView.h</key>
 		<data>
@@ -334,7 +326,7 @@
 		</data>
 		<key>Headers/YYWebImageManager.h</key>
 		<data>
-		JYy2Rj0PMFYVLGofIhp317l04Ww=
+		+5NWK9XpuKqNuC/RYJWjN4u7e6o=
 		</data>
 		<key>Headers/YYWebImageOperation.h</key>
 		<data>
@@ -346,11 +338,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vV89F1ZzNWBanJOaENeh/ogzp+U=
+		M5Jopeb4bWbCWcLuF1iuiTJk20U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Qex85jnKill1rmHdfo6kbi5W2ts=
+		cquDdm38LGmR5CzMbrvUFtwPsxw=
+		</data>
+		<key>WebP.sh</key>
+		<data>
+		1i/1bEzWpWkHP2cFuIifnIKem/0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -392,22 +388,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eGGV7GhIaaucpIYUEixf5v2GBpE=
+			TIPwsC2+mB9ElTCF5B9UIeDEA2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			0BX4TIsRduvcXUQmMsRMJ22eROwcYwYMKrx5zrL8wro=
+			5EWUg0uh9keXeFgl712Zvx2F8tq9maBNZceB3EdI3ZI=
 			</data>
 		</dict>
 		<key>Headers/NSAttributedString+YYText.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			05O99nkfaupoUpFmL09O6lwhmJE=
+			SFkTJe6MiCB2u0IboAoTAlTRyMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			syrTxfkQzCI+mQnhPkcbaQFXP5jg/URFaDfT9dUwhaM=
+			IOKTttZ13Ieb0ovIbaKlRzbdwMoiQPs9K9XnPriS4lo=
 			</data>
 		</dict>
 		<key>Headers/NSBundle+YYAdd.h</key>
@@ -524,11 +520,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZUt3hEm+Li+dcJdKyIRQxmNTr1o=
+			Sg3OYSitop0EhzgP9vRTwxO0dNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkTGZKWjzXx30ikRpa7iclEtxIYFY1P8M1shMlWlgmc=
+			rqrWZhUUh8Xafyj7Lee696XzaAQv2m7aE84NrHlBcHo=
 			</data>
 		</dict>
 		<key>Headers/NSParagraphStyle+YYText.h</key>
@@ -546,11 +542,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j3MEruwNJAOJ73a/uFtWuOiSmP0=
+			B8VeUi45kbjYo7r3A7itxUrESus=
 			</data>
 			<key>hash2</key>
 			<data>
-			/FK6J9OhwNdZcqVMyv2DfNRr+Fdh954M0CyDfHsjPNk=
+			t+lrZZOemrfhjZTdYI9ewudo4LLzA6D6hHBuwTOs9jw=
 			</data>
 		</dict>
 		<key>Headers/NSThread+YYAdd.h</key>
@@ -645,11 +641,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fp7/4X2EnwVRPgC4WsppqKMoECA=
+			n363pWJM9MCqGAmDt5ZPoBSQXCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			89kTC6zmEdihCOCEPYuJl08YYK+kkHm01eBu22Zuj2Q=
+			iXnxeSGZmOHCCIy5U5vlahZvIs5NSy2wz6AoApe7kaQ=
 			</data>
 		</dict>
 		<key>Headers/UIFont+YYAdd.h</key>
@@ -777,22 +773,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sXH4DoAtUhu1nVXv8oHebEUPJ88=
+			UUL3PqAa9G66vtHqBNFEy9GvZ3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			na1n5Yv9A7kZ2v/XvdkZPrtOHAbiq6qAKb/dCqNsUlw=
+			I3FKCzLBzahwar84OEc55D9nEp8q2adbfYHuPWMPaiI=
 			</data>
 		</dict>
 		<key>Headers/YYCGUtilities.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DnzJcwpRRX6cjDEc19cE8gCZvjY=
+			2IABL8MohQLCBw9SLnlh42W+9l8=
 			</data>
 			<key>hash2</key>
 			<data>
-			AsNOqAXtJ/pOo0Y0KF9XmX2F5Zhtb1kHrrSvFBz2tB8=
+			41yCWuTDfcXEPSVQiprXlsA+i0kbtKZYgjNHsolOgtg=
 			</data>
 		</dict>
 		<key>Headers/YYCache.h</key>
@@ -898,11 +894,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6nlZ9T9SUX9WwKNsko3Ik3RsvBo=
+			x/xMEUHwAMWlunOwQXrQuSzPji8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jg9EZYNOoUF+fKrvcACqapwPEM9uSOAhoKp86UQ90wA=
+			jmFjp5wMDSUFFQ+1TduF/wXmg+PQ0EOsu0wgIdwV/AE=
 			</data>
 		</dict>
 		<key>Headers/YYKVStorage.h</key>
@@ -927,17 +923,6 @@
 			1nfdkjqPjCE7fNwUAtGyAuR6FF6jCdJ6cxXUdeyfItA=
 			</data>
 		</dict>
-		<key>Headers/YYKit-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gDZh5E7nDHQ5hl37/TCPzTEwm/4=
-			</data>
-			<key>hash2</key>
-			<data>
-			onndWRLb3q/7dqyS8tBofsa04ddHiUSMnzFanlgcZgw=
-			</data>
-		</dict>
 		<key>Headers/YYKit.h</key>
 		<dict>
 			<key>hash</key>
@@ -953,11 +938,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Zt+vWNKL4HePH+Fsa2O0uNfc00=
+			aMbNz5b3yIPLGRiRtbK0QKvg1Oo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HLcWaY8Rhj1qifytcX/QpJV71tfgWoW8fVTdDN8WMmg=
+			9jA4Nuyd/NoeizQlMlB/jIcpmowN58X6B3YKYftUO2k=
 			</data>
 		</dict>
 		<key>Headers/YYLabel.h</key>
@@ -1096,11 +1081,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CAVGnoj4uXFtkIDMZQcAdh7GOUY=
+			HRu737f0rddSwx0Hn9iL1catg5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			39yD+wtcynkCTs8tNJewpCVu3itVYXRWRfLe9EuUI8A=
+			0F1V70bsy/JcqGHTqRPP5Nz+EZ8b9MHphKFZFBlAZUg=
 			</data>
 		</dict>
 		<key>Headers/YYTextLine.h</key>
@@ -1173,11 +1158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7N06NHblMeaKnL7JlsEjjD6dJuw=
+			JW4zxqdOLcISoHlv2pxrrpdJXzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			APqRlcawQcmHLPthOh+YcJuiRVEfSfnbe7He2fjXRxg=
+			TW7/ICcTECx49yN8aa/HKyaFvcVXhsoIWRRlY0NREZc=
 			</data>
 		</dict>
 		<key>Headers/YYTextView.h</key>
@@ -1250,11 +1235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JYy2Rj0PMFYVLGofIhp317l04Ww=
+			+5NWK9XpuKqNuC/RYJWjN4u7e6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			h2sY5CX4RShGSi208bHi9imX2OgZb6+wkVs2pEjhm6c=
+			ghgNdVBTSGHOhVWW7tG/mm00VuvP7Y7vqlIsIlHlsTg=
 			</data>
 		</dict>
 		<key>Headers/YYWebImageOperation.h</key>
@@ -1283,17 +1268,28 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qex85jnKill1rmHdfo6kbi5W2ts=
+			cquDdm38LGmR5CzMbrvUFtwPsxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SgP2ZCphWD73F5tRl36K8/JMbT7zbEx5RgP9SzPTdkY=
+			CExokEEkwfYjjiBP168MJbc+1J7yud6H5sldyBlXszo=
+			</data>
+		</dict>
+		<key>WebP.sh</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1i/1bEzWpWkHP2cFuIifnIKem/0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VqTHqE0Nzh59K2MUymwcPAHo7XdUjJNpo/KYFS7XIdQ=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -1324,24 +1320,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -1377,13 +1361,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

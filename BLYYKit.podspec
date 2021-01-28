@@ -32,8 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BLYYKit/Classes/**/*'
   
-  s.vendored_frameworks = 'BLYYKit/Frameworks/yykit/YYKit.framework'
+  
+  s.vendored_frameworks = 'BLYYKit/Frameworks/yykit/YYKit.framework','BLYYKit/Frameworks/mars/mars.framework'
 
+  
+  s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration'
+  s.libraries  = "c++", "z"
   # s.resource_bundles = {
   #   'BLYYKit' => ['BLYYKit/Assets/*.png']
   # }
