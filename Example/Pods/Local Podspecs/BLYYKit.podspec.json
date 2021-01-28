@@ -19,10 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "BLYYKit/Classes/**/*",
-  "vendored_frameworks": [
-    "BLYYKit/Frameworks/yykit/YYKit.framework",
-    "BLYYKit/Frameworks/mars/mars.framework"
-  ],
+  "vendored_frameworks": "BLYYKit/Frameworks/yykit/YYKit.framework",
   "frameworks": [
     "Foundation",
     "CoreTelephony",

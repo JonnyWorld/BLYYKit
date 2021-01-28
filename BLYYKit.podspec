@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'BLYYKit/Classes/**/*'
   
   
-  s.vendored_frameworks = 'BLYYKit/Frameworks/yykit/YYKit.framework','BLYYKit/Frameworks/mars/mars.framework'
+  s.vendored_frameworks = 'BLYYKit/Frameworks/yykit/YYKit.framework'
 
 
   s.frameworks = 'Foundation', 'CoreTelephony', 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'

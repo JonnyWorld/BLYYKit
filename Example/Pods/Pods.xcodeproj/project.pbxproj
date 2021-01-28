@@ -8,32 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		034840C3BCD2D8ADC76FA85C5D079F39 /* Pods-BLYYKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B66484CE9387E0147906FAD09961F2 /* Pods-BLYYKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1248333574176A1781F0DC60DC416FE4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B532C95DC3D544E693045B561C2663BC /* SystemConfiguration.framework */; };
 		23AFCF38485041410A7F65F7730C0846 /* Pods-BLYYKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43884406E7EB3DBFC671567F9AFA81F4 /* Pods-BLYYKit_Tests-dummy.m */; };
 		2639B431D4CC3410EC6EB571990E7BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B9714C3CB6826FC0E1D2667807A324 /* Foundation.framework */; };
-		38270329390502EC0E93A746DD0509A9 /* LogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A236F44EAE0CCA24E30A0292906FC0B /* LogUtil.m */; };
-		3907D6D547DC7E9465C3C67A352F67AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5E44EE35D8AF078FAFF74129814B6 /* QuartzCore.framework */; };
-		4498C936FE6E8D71591269CDCCDD46FB /* BLYYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 510E0F9B82575B772896C43155FAB698 /* BLYYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57725CDE6F10A1E376B224B4BE38A12B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ED8E97129931417615A798D76A740A /* ReplaceMe.m */; };
+		2D2CBEBF9092545BE41BBD1DCBAEC663 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB3B3292E754707FDF10322326BA171 /* Accelerate.framework */; };
+		303AFE688757B814F4FF170A228F657D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B532C95DC3D544E693045B561C2663BC /* SystemConfiguration.framework */; };
+		436256B37FD010BCB96531570D76EBB9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0048902B02342819873AFDCEE933B49 /* ReplaceMe.m */; };
+		4DB0480CF0BA0B9F98140FA670ED3E43 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FD5DBC73468DB1EFF20E4EA58B6C13 /* CoreText.framework */; };
+		51C70F0F6685DADA700DF2C042196289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B9714C3CB6826FC0E1D2667807A324 /* Foundation.framework */; };
+		54641942661D131DA06757F8538CF497 /* BLYYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084CE7422B659558906E64E1F4DE795C /* BLYYKit-dummy.m */; };
 		5D4CD6202CD1434E51D535AD6526D7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B9714C3CB6826FC0E1D2667807A324 /* Foundation.framework */; };
-		6C7108BBFB7A8AE2802BCA77908C3FD1 /* ZJLog.h in Headers */ = {isa = PBXBuildFile; fileRef = AB762ED698FA8B9F75DB1FA15850CDEF /* ZJLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74906875027CEE0958DF72F4B3AD38ED /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FD5DBC73468DB1EFF20E4EA58B6C13 /* CoreText.framework */; };
-		85BBD7C4A885025E86FD387CDAEB39D4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093ECBCDE8A0FEFAA46F3FE8526A061E /* ImageIO.framework */; };
-		8A84FC1F16133F262D655B256A0AEEBA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07376CD8C95B70988187BF57E74D14 /* AssetsLibrary.framework */; };
-		9071F17D5F43E522373A26827438F8E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445FDFA4F38AEEB5B552E818A8D51A0F /* UIKit.framework */; };
+		6BF05BA1E38AD06B1CBE223AC3C39FC6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA6AAE14A496BC0977421B27C104ADF /* MobileCoreServices.framework */; };
+		781E5697F1C066537BC9B15EB9128A59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445FDFA4F38AEEB5B552E818A8D51A0F /* UIKit.framework */; };
+		92D8BAD44191648F690FF5743A43E69F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8450CB2BF583E8EE00F4F4A73CB3A016 /* CoreFoundation.framework */; };
+		93A03AD0F51A6DDC9399123A9C28600F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07376CD8C95B70988187BF57E74D14 /* AssetsLibrary.framework */; };
+		97CF97E86968B9DB2D55B585F2E5B95C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093ECBCDE8A0FEFAA46F3FE8526A061E /* ImageIO.framework */; };
 		9E3BA476B11556EA301B11C9A8320B93 /* Pods-BLYYKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6317A012D0869D6369F246840E70C6 /* Pods-BLYYKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0979A6DA0C6A7348011E1579E727231 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F73130C0F3899E037D02CB646E3186 /* CoreGraphics.framework */; };
-		AA5EB80A99C48B70BAF126656BAB91D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B9714C3CB6826FC0E1D2667807A324 /* Foundation.framework */; };
-		AC87069E7BF712BD62E046E49F586989 /* LogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6FEA4DF87E6EC159406657B76CE612D /* LogHelper.mm */; };
-		B12C91CE5DCA38E0E9832B79692F2EBA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA6AAE14A496BC0977421B27C104ADF /* MobileCoreServices.framework */; };
-		BAFE7A27D952506B3069F20D116FF4F6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB3B3292E754707FDF10322326BA171 /* Accelerate.framework */; };
+		9E4513AF132159DFE523A0CF6BA9524D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE5E44EE35D8AF078FAFF74129814B6 /* QuartzCore.framework */; };
+		9F5B33BB637377B8432D5C9F87FD64C9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7151FB0115C519DF684CFEEB5BAD559 /* CoreImage.framework */; };
+		A2C72D23B1C5732C3A06ACA5E0FD93E2 /* BLYYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D63F506CFBB376BBB8C390793ABB85C /* BLYYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B1A6783F25F9E6B94E2C9999DE7AD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F73130C0F3899E037D02CB646E3186 /* CoreGraphics.framework */; };
 		BBEF7F8A67E15CC9DD397A6D40558EBE /* Pods-BLYYKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2BE0D783184B23C46C8A1E19417149 /* Pods-BLYYKit_Example-dummy.m */; };
-		C900543BCF69D4A231C369349A2D761F /* LogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7857EDF009FA016D09EF49BCC7D2CE67 /* LogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9852C5E9FDE564DEA047969785DF9FF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7151FB0115C519DF684CFEEB5BAD559 /* CoreImage.framework */; };
-		F50E663C6BDD1B9A6F5A812404B981B5 /* LogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BB36317E9380EB65BB04A00D9D5DF495 /* LogUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8C0BCFD63A8B1CFBBC852579F03ABE7 /* BLYYKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A935527A71B394A877F11565C615E /* BLYYKit-dummy.m */; };
-		F8E0EE0FEEE05BA9B22D4DAED87218DA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA87EF28523A6682231291DD008EC05D /* CoreTelephony.framework */; };
-		FB32E9E39CB05B646D57634B99D999C7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8450CB2BF583E8EE00F4F4A73CB3A016 /* CoreFoundation.framework */; };
+		F701E8D41E25BC6DD9253C86CB5EF205 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA87EF28523A6682231291DD008EC05D /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,76 +50,70 @@
 
 /* Begin PBXFileReference section */
 		01B9714C3CB6826FC0E1D2667807A324 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		072ABFEB48609C072A35D97BF43FDB6B /* BLYYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLYYKit.modulemap; sourceTree = "<group>"; };
+		084CE7422B659558906E64E1F4DE795C /* BLYYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLYYKit-dummy.m"; sourceTree = "<group>"; };
 		093ECBCDE8A0FEFAA46F3FE8526A061E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		0BABA68324B0E6CECB6B87EAB07F1007 /* Pods-BLYYKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLYYKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		13736638D37F222A112A0D983F5BBE05 /* YYKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYKit.framework; path = BLYYKit/Frameworks/yykit/YYKit.framework; sourceTree = "<group>"; };
+		1A9BDE61D91AE6E7A9495DFAF2A53462 /* BLYYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BLYYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B11BA4116FFA06B35BE627CECE4EF6C /* Pods-BLYYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLYYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		25AB85016E9F7382D1018A2C9D8D9050 /* Pods-BLYYKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLYYKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		278B84813F44E41C4EB75375E84247DE /* BLYYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLYYKit.xcconfig; sourceTree = "<group>"; };
 		293162849D658F70A8F7EA0415508F5E /* Pods-BLYYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLYYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F7A935527A71B394A877F11565C615E /* BLYYKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLYYKit-dummy.m"; sourceTree = "<group>"; };
-		3A2F6AAF6D01EDF813DA627A0EF2F1C1 /* Pods_BLYYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLYYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE09BBF756497310D0FF6F0D011B00 /* BLYYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLYYKit-prefix.pch"; sourceTree = "<group>"; };
+		3A2F6AAF6D01EDF813DA627A0EF2F1C1 /* Pods_BLYYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLYYKit_Tests.framework; path = "Pods-BLYYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D63F506CFBB376BBB8C390793ABB85C /* BLYYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLYYKit-umbrella.h"; sourceTree = "<group>"; };
 		3F6317A012D0869D6369F246840E70C6 /* Pods-BLYYKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLYYKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		40129F7E53FD6D082A877A11296C7A1C /* Pods-BLYYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLYYKit_Tests.modulemap"; sourceTree = "<group>"; };
-		41E62963E83CA4B3F079A8C0127357B2 /* BLYYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BLYYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43884406E7EB3DBFC671567F9AFA81F4 /* Pods-BLYYKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLYYKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		445FDFA4F38AEEB5B552E818A8D51A0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4C4E8AA41173504B9C6E067A310F355B /* Pods-BLYYKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLYYKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		510E0F9B82575B772896C43155FAB698 /* BLYYKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLYYKit-umbrella.h"; sourceTree = "<group>"; };
 		53089584173C4080A2893177BC5D6C8B /* Pods-BLYYKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLYYKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		5A236F44EAE0CCA24E30A0292906FC0B /* LogUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
 		5AE5E44EE35D8AF078FAFF74129814B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		64B66484CE9387E0147906FAD09961F2 /* Pods-BLYYKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLYYKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		72E56974A356614158C5D9A8D3DEB42B /* YYKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYKit.framework; path = BLYYKit/Frameworks/yykit/YYKit.framework; sourceTree = "<group>"; };
-		7857EDF009FA016D09EF49BCC7D2CE67 /* LogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LogHelper.h; sourceTree = "<group>"; };
+		77B3D7858D1681B32EA982392F94436D /* BLYYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLYYKit-Info.plist"; sourceTree = "<group>"; };
 		81B362317B20DD24EFF664FB719BA54A /* Pods-BLYYKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLYYKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8450CB2BF583E8EE00F4F4A73CB3A016 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		85F36F6506044711E4488C7CBBDB6E2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8AF93CBE38ADE458D7F57A7DC350545D /* Pods-BLYYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLYYKit_Example-Info.plist"; sourceTree = "<group>"; };
 		8DB3B3292E754707FDF10322326BA171 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A98047C78A4DCEF9B7A547C7812491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0F73130C0F3899E037D02CB646E3186 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		A7C1964261C6BC472FB421CE999BFE60 /* BLYYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLYYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C1964261C6BC472FB421CE999BFE60 /* BLYYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLYYKit.framework; path = BLYYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FD5DBC73468DB1EFF20E4EA58B6C13 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		A96831E0D1F8A8F5E54611BD6C2C331B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AB762ED698FA8B9F75DB1FA15850CDEF /* ZJLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJLog.h; path = BLYYKit/Classes/ZJLog.h; sourceTree = "<group>"; };
 		AD07376CD8C95B70988187BF57E74D14 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		AEA6AAE14A496BC0977421B27C104ADF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		B532C95DC3D544E693045B561C2663BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		B678213E9B3FD5080CAEF214B50E431B /* Pods_BLYYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLYYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B678213E9B3FD5080CAEF214B50E431B /* Pods_BLYYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLYYKit_Example.framework; path = "Pods-BLYYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA87EF28523A6682231291DD008EC05D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		BB36317E9380EB65BB04A00D9D5DF495 /* LogUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
-		BD4A3C72996A4ECF67002165EA4E4111 /* BLYYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLYYKit-Info.plist"; sourceTree = "<group>"; };
 		BED308E3BE22B2F0342937AA1162627F /* Pods-BLYYKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLYYKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C31030997120547F5DEC874528E3D30E /* Pods-BLYYKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLYYKit_Example.modulemap"; sourceTree = "<group>"; };
-		C62531B2298495D7DFC3CC33ED911462 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = BLYYKit/Frameworks/mars/mars.framework; sourceTree = "<group>"; };
+		C8B4CCE40FA32616ED68EA402AC951C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C8F79242BE711C3305AF10124E9294DA /* Pods-BLYYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLYYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D09F96F520A471875EE5448B7EB990DD /* BLYYKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLYYKit.xcconfig; sourceTree = "<group>"; };
-		D6FEA4DF87E6EC159406657B76CE612D /* LogHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = LogHelper.mm; sourceTree = "<group>"; };
+		D0048902B02342819873AFDCEE933B49 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BLYYKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D7151FB0115C519DF684CFEEB5BAD559 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
-		D7ED8E97129931417615A798D76A740A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BLYYKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E268C3CFD42AC31AB6EC638DC13320A3 /* BLYYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLYYKit-prefix.pch"; sourceTree = "<group>"; };
 		EC2BE0D783184B23C46C8A1E19417149 /* Pods-BLYYKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLYYKit_Example-dummy.m"; sourceTree = "<group>"; };
+		EF7A5124C6B5488DF996EEEDE71B0611 /* BLYYKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLYYKit.modulemap; sourceTree = "<group>"; };
 		F68F2C535CD008C81FC8222FEA0C7E6F /* Pods-BLYYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLYYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DAFC819263C40B51EA76D41199ADAE4 /* Frameworks */ = {
+		B0AAD01F63A705D01DBD3F56D3C7846B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFE7A27D952506B3069F20D116FF4F6 /* Accelerate.framework in Frameworks */,
-				8A84FC1F16133F262D655B256A0AEEBA /* AssetsLibrary.framework in Frameworks */,
-				FB32E9E39CB05B646D57634B99D999C7 /* CoreFoundation.framework in Frameworks */,
-				A0979A6DA0C6A7348011E1579E727231 /* CoreGraphics.framework in Frameworks */,
-				C9852C5E9FDE564DEA047969785DF9FF /* CoreImage.framework in Frameworks */,
-				F8E0EE0FEEE05BA9B22D4DAED87218DA /* CoreTelephony.framework in Frameworks */,
-				74906875027CEE0958DF72F4B3AD38ED /* CoreText.framework in Frameworks */,
-				AA5EB80A99C48B70BAF126656BAB91D0 /* Foundation.framework in Frameworks */,
-				85BBD7C4A885025E86FD387CDAEB39D4 /* ImageIO.framework in Frameworks */,
-				B12C91CE5DCA38E0E9832B79692F2EBA /* MobileCoreServices.framework in Frameworks */,
-				3907D6D547DC7E9465C3C67A352F67AE /* QuartzCore.framework in Frameworks */,
-				1248333574176A1781F0DC60DC416FE4 /* SystemConfiguration.framework in Frameworks */,
-				9071F17D5F43E522373A26827438F8E3 /* UIKit.framework in Frameworks */,
+				2D2CBEBF9092545BE41BBD1DCBAEC663 /* Accelerate.framework in Frameworks */,
+				93A03AD0F51A6DDC9399123A9C28600F /* AssetsLibrary.framework in Frameworks */,
+				92D8BAD44191648F690FF5743A43E69F /* CoreFoundation.framework in Frameworks */,
+				B8B1A6783F25F9E6B94E2C9999DE7AD4 /* CoreGraphics.framework in Frameworks */,
+				9F5B33BB637377B8432D5C9F87FD64C9 /* CoreImage.framework in Frameworks */,
+				F701E8D41E25BC6DD9253C86CB5EF205 /* CoreTelephony.framework in Frameworks */,
+				4DB0480CF0BA0B9F98140FA670ED3E43 /* CoreText.framework in Frameworks */,
+				51C70F0F6685DADA700DF2C042196289 /* Foundation.framework in Frameworks */,
+				97CF97E86968B9DB2D55B585F2E5B95C /* ImageIO.framework in Frameworks */,
+				6BF05BA1E38AD06B1CBE223AC3C39FC6 /* MobileCoreServices.framework in Frameworks */,
+				9E4513AF132159DFE523A0CF6BA9524D /* QuartzCore.framework in Frameworks */,
+				303AFE688757B814F4FF170A228F657D /* SystemConfiguration.framework in Frameworks */,
+				781E5697F1C066537BC9B15EB9128A59 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,40 +179,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56028537F93B7428FAEF37FC4C4E6A25 /* Pod */ = {
+		4BA050DAA1D648ECCC5D264529A3E0CA /* BLYYKit */ = {
 			isa = PBXGroup;
 			children = (
-				41E62963E83CA4B3F079A8C0127357B2 /* BLYYKit.podspec */,
-				A96831E0D1F8A8F5E54611BD6C2C331B /* LICENSE */,
-				85F36F6506044711E4488C7CBBDB6E2E /* README.md */,
+				D0048902B02342819873AFDCEE933B49 /* ReplaceMe.m */,
+				89877EE6A584CDB077DDACBBAD34A625 /* Frameworks */,
+				E62A0707B283CFA88821D7F26A9AFD08 /* Pod */,
+				7D7E1275811CE7647FBFDDDE70B64774 /* Support Files */,
 			);
-			name = Pod;
+			name = BLYYKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		65B6DAAD0880511D3C305686720B80DB /* Support Files */ = {
+		7D7E1275811CE7647FBFDDDE70B64774 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				072ABFEB48609C072A35D97BF43FDB6B /* BLYYKit.modulemap */,
-				D09F96F520A471875EE5448B7EB990DD /* BLYYKit.xcconfig */,
-				2F7A935527A71B394A877F11565C615E /* BLYYKit-dummy.m */,
-				BD4A3C72996A4ECF67002165EA4E4111 /* BLYYKit-Info.plist */,
-				E268C3CFD42AC31AB6EC638DC13320A3 /* BLYYKit-prefix.pch */,
-				510E0F9B82575B772896C43155FAB698 /* BLYYKit-umbrella.h */,
+				EF7A5124C6B5488DF996EEEDE71B0611 /* BLYYKit.modulemap */,
+				278B84813F44E41C4EB75375E84247DE /* BLYYKit.xcconfig */,
+				084CE7422B659558906E64E1F4DE795C /* BLYYKit-dummy.m */,
+				77B3D7858D1681B32EA982392F94436D /* BLYYKit-Info.plist */,
+				38EE09BBF756497310D0FF6F0D011B00 /* BLYYKit-prefix.pch */,
+				3D63F506CFBB376BBB8C390793ABB85C /* BLYYKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BLYYKit";
-			sourceTree = "<group>";
-		};
-		6A7E298BDDD4D030AE024D2EBF08A158 /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				7857EDF009FA016D09EF49BCC7D2CE67 /* LogHelper.h */,
-				D6FEA4DF87E6EC159406657B76CE612D /* LogHelper.mm */,
-				BB36317E9380EB65BB04A00D9D5DF495 /* LogUtil.h */,
-				5A236F44EAE0CCA24E30A0292906FC0B /* LogUtil.m */,
-			);
-			name = Log;
-			path = BLYYKit/Classes/Log;
 			sourceTree = "<group>";
 		};
 		805FE6417D2D1D8780E72962BF15F0B8 /* Pods-BLYYKit_Example */ = {
@@ -243,12 +222,12 @@
 			path = "Target Support Files/Pods-BLYYKit_Example";
 			sourceTree = "<group>";
 		};
-		99E9D46FE0410FCF051EDFE22F0EFC07 /* Development Pods */ = {
+		89877EE6A584CDB077DDACBBAD34A625 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD20A5E7CE02680351C4B02E83BE4EBC /* BLYYKit */,
+				13736638D37F222A112A0D983F5BBE05 /* YYKit.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C171D9AE982C282D2E45C5179888BD44 /* iOS */ = {
@@ -275,34 +254,29 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				99E9D46FE0410FCF051EDFE22F0EFC07 /* Development Pods */,
+				DE9705E853C32970A5313FA6CD717533 /* Development Pods */,
 				35E526B6E4CA6A7E89FE8C5A5B1F2259 /* Frameworks */,
 				3130424C1AA6F260D2D1CF08F49B59B9 /* Products */,
 				28F42BFE95AD7BD002BF77EFA5FA5958 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DD20A5E7CE02680351C4B02E83BE4EBC /* BLYYKit */ = {
+		DE9705E853C32970A5313FA6CD717533 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7ED8E97129931417615A798D76A740A /* ReplaceMe.m */,
-				AB762ED698FA8B9F75DB1FA15850CDEF /* ZJLog.h */,
-				DFF26C64B349DA06459A0E65053D767A /* Frameworks */,
-				6A7E298BDDD4D030AE024D2EBF08A158 /* Log */,
-				56028537F93B7428FAEF37FC4C4E6A25 /* Pod */,
-				65B6DAAD0880511D3C305686720B80DB /* Support Files */,
+				4BA050DAA1D648ECCC5D264529A3E0CA /* BLYYKit */,
 			);
-			name = BLYYKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DFF26C64B349DA06459A0E65053D767A /* Frameworks */ = {
+		E62A0707B283CFA88821D7F26A9AFD08 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C62531B2298495D7DFC3CC33ED911462 /* mars.framework */,
-				72E56974A356614158C5D9A8D3DEB42B /* YYKit.framework */,
+				1A9BDE61D91AE6E7A9495DFAF2A53462 /* BLYYKit.podspec */,
+				C8B4CCE40FA32616ED68EA402AC951C6 /* LICENSE */,
+				96A98047C78A4DCEF9B7A547C7812491 /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,14 +298,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C3D53A7FF3890758463FE2CF3AEAE2 /* Headers */ = {
+		58D5B314FFEE05C03535EA53CB437B87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4498C936FE6E8D71591269CDCCDD46FB /* BLYYKit-umbrella.h in Headers */,
-				C900543BCF69D4A231C369349A2D761F /* LogHelper.h in Headers */,
-				F50E663C6BDD1B9A6F5A812404B981B5 /* LogUtil.h in Headers */,
-				6C7108BBFB7A8AE2802BCA77908C3FD1 /* ZJLog.h in Headers */,
+				A2C72D23B1C5732C3A06ACA5E0FD93E2 /* BLYYKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +349,12 @@
 		};
 		589593BC503A60DE0A9BCC4C6BCE1736 /* BLYYKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7483841526A18D514CD3956164D7C70 /* Build configuration list for PBXNativeTarget "BLYYKit" */;
+			buildConfigurationList = 7E8C6C30A7D0FDB85202AEC060292833 /* Build configuration list for PBXNativeTarget "BLYYKit" */;
 			buildPhases = (
-				B6C3D53A7FF3890758463FE2CF3AEAE2 /* Headers */,
-				75137284A34CF2BF65EDF541C4607B2C /* Sources */,
-				3DAFC819263C40B51EA76D41199ADAE4 /* Frameworks */,
-				ACD6BD94FE0DAF0C6DF88BCBFB6C7A41 /* Resources */,
+				58D5B314FFEE05C03535EA53CB437B87 /* Headers */,
+				E042E0C412B2CDB3FEE3EA589FBD2EC6 /* Sources */,
+				B0AAD01F63A705D01DBD3F56D3C7846B /* Frameworks */,
+				5F9C51E580A64C6A94525B1F8DABE02C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -424,14 +395,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		70929B7147ACD074A1AFDF65342B5647 /* Resources */ = {
+		5F9C51E580A64C6A94525B1F8DABE02C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACD6BD94FE0DAF0C6DF88BCBFB6C7A41 /* Resources */ = {
+		70929B7147ACD074A1AFDF65342B5647 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,17 +419,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75137284A34CF2BF65EDF541C4607B2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8C0BCFD63A8B1CFBBC852579F03ABE7 /* BLYYKit-dummy.m in Sources */,
-				AC87069E7BF712BD62E046E49F586989 /* LogHelper.mm in Sources */,
-				38270329390502EC0E93A746DD0509A9 /* LogUtil.m in Sources */,
-				57725CDE6F10A1E376B224B4BE38A12B /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75B9C62B1C71F588CAF082174365E7B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,6 +432,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBEF7F8A67E15CC9DD397A6D40558EBE /* Pods-BLYYKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E042E0C412B2CDB3FEE3EA589FBD2EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54641942661D131DA06757F8538CF497 /* BLYYKit-dummy.m in Sources */,
+				436256B37FD010BCB96531570D76EBB9 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +462,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		46D9174782F9B2619EEF05D436FC9AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278B84813F44E41C4EB75375E84247DE /* BLYYKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLYYKit/BLYYKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLYYKit/BLYYKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLYYKit/BLYYKit.modulemap";
+				PRODUCT_MODULE_NAME = BLYYKit;
+				PRODUCT_NAME = BLYYKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		62D9FDA2A5265B882301D40C24E9B4B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8F79242BE711C3305AF10124E9294DA /* Pods-BLYYKit_Example.release.xcconfig */;
@@ -507,7 +507,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BLYYKit_Example/Pods-BLYYKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -581,7 +580,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -601,7 +601,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BLYYKit_Tests/Pods-BLYYKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -685,39 +684,6 @@
 			};
 			name = Debug;
 		};
-		9B12667FD3B1D378F97F9B0CBBDF3A44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D09F96F520A471875EE5448B7EB990DD /* BLYYKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/BLYYKit/BLYYKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLYYKit/BLYYKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLYYKit/BLYYKit.modulemap";
-				PRODUCT_MODULE_NAME = BLYYKit;
-				PRODUCT_NAME = BLYYKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C966ACDDB135040CADC779BABEBC3226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F68F2C535CD008C81FC8222FEA0C7E6F /* Pods-BLYYKit_Example.debug.xcconfig */;
@@ -732,7 +698,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BLYYKit_Example/Pods-BLYYKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -766,7 +731,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BLYYKit_Tests/Pods-BLYYKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -787,9 +751,9 @@
 			};
 			name = Release;
 		};
-		FE2B811522368164348DD2519D8FE67B /* Debug */ = {
+		E5F81E22078861599A69C6DEE9F0C0A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D09F96F520A471875EE5448B7EB990DD /* BLYYKit.xcconfig */;
+			baseConfigurationReference = 278B84813F44E41C4EB75375E84247DE /* BLYYKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -800,7 +764,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/BLYYKit/BLYYKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BLYYKit/BLYYKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -814,10 +777,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -849,11 +813,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7483841526A18D514CD3956164D7C70 /* Build configuration list for PBXNativeTarget "BLYYKit" */ = {
+		7E8C6C30A7D0FDB85202AEC060292833 /* Build configuration list for PBXNativeTarget "BLYYKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE2B811522368164348DD2519D8FE67B /* Debug */,
-				9B12667FD3B1D378F97F9B0CBBDF3A44 /* Release */,
+				46D9174782F9B2619EEF05D436FC9AC0 /* Debug */,
+				E5F81E22078861599A69C6DEE9F0C0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
